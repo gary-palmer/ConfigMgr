@@ -55,6 +55,18 @@ Begin {
 
     # Windows 10 version 1903
     # No new apps
+    
+    # POL Customizations
+    $WhiteListedApps.AddRange(@(
+        "Microsoft.GetHelp",
+        "Microsoft.Getstarted",
+        "Microsoft.Microsoft3DViewer",
+        "Microsoft.Office.OneNote",
+        "Microsoft.WindowsCamera",
+        "DolbyLaboratories.DolbyAudio",
+        "RealtekSemiconductorCorp.RealtekAudioControl"
+    ))
+    
 }
 Process {
     # Functions
